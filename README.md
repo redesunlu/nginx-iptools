@@ -2,6 +2,7 @@
 Upstream image of nginx-bookworm with the addition of some basic network tools for our labs
 
 ## Building and pushing the image to the 'docentetyr' Docker Hub repository
+```comandline
 $ docker build -t nginx-iptools .
 [ ... build process ...]
 
@@ -26,4 +27,4 @@ c4484f227d5e: Mounted from library/nginx
 87a8a3a2ab9c: Mounted from library/nginx 
 1f00ff201478: Mounted from library/nginx 
 latest: digest: sha256:62522a61895c673bd56d889e0050b4c694f50174104c6f180b0cfc636322a4d1 size: 1990
-
+```
